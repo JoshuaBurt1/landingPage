@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Responsive Web Design Task: Task</title>
+    <!--Note: For externally hosted fonts, Google fonts will give a link to multiple family and wght -> CHOOSE ONE ie. IBM+Plex+Mono:wght@400  -->
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400" rel="stylesheet">
+    <link href="style.css" rel="stylesheet"> <!--CSS-->
+    <script defer src="changePic.js"></script> <!--JS-->
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <h2>:Joshua() The_Architect</h2>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="">Link 1</a>
+                </li>
+                <li>
+                    <a href="">Link 2</a>
+                </li>
+                <li>
+                    <a href="">Link 3</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <article>
+            <div class = "intro">
+                <h2>Description</h2>
+                <p>&bull;Professional web development &bull;Application architecture &bull;Product and training simulation design &bull;Business process enhancement &bull;Automation&bull;</p>
+                <h2>Background</h2>
+                <p><span class="bold">Georgian College 2024</span> - Computer Programming</p>
+                <p><span class="bold">Ontario Tech U 2017</span> - Nursing</p>
+                <h2>Quote of the Day</h2>
+                <p>“The Panopticon is a marvelous machine which, whatever use one may wish to put it to, produces homogeneous effects of power.”</p>
+            </div>
+            <ul class="cards">
+                <li>
+                    <h2>Portfolio 1</h2>
+                    <div class="inner">
+                        <p><span class="bold">Description:</span> Landing page with knowledge game for dialysis patients.</p>
+                        <p><span class="bold">Equipment | Language:</span> Visual Studio | HTML, CSS, JS</p>
+                        <div class="thumb-pic">
+                            <img src="assets/comHealthWebPage.png" alt="webpage" id="myImage1">
+                        </div>
+                        <div class = "bottom-text">
+                            <div class = "buttons">
+                                <div class = "btn1" onclick="changeImage1()" value="Change1" >Next</div>
+                            </div>
+                            <div class = "time">Link: <a href="#">Professional webpage</a></div>
+                        </div>
+                        
+                    </div>
+                </li>
+                <li>
+                    <h2>Portfolio 2</h2>
+                    <div class="inner">
+                        <p><span class="bold">Description:</span> Browser-based training game for nursing students and refresher for professional practice.</p>
+                        <p><span class="bold">Equipment | Language:</span> Visual Studio | HTML, CSS, JS</p>
+                        <div class="thumb-pic">
+                            <img src="assets/nurseTraining.png" alt="medGame1" id="myImage2">
+                        </div>
+                        <div class = "bottom-text">
+                            <div class = "buttons">
+                                <div class = "btn1" onclick="changeImage2()" value="Change2" >Next</div>
+                            </div>
+                            <div class = "time">Link: <a href="#">Nurse Training</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <h2>Portfolio 3</h2>
+                    <div class="inner">
+                        <p><span class="bold">Description:</span> Career/Training simulators</p> 
+                        <p><span class="bold">Equipment | Language:</span> Visual Studio | C#</p>
+                        <div class="thumb-pic">
+                            <img src="assets/FarmingSimulator.png" alt="simulation" id="myImage3">
+                        </div>
+                        <div class = "bottom-text">
+                            <div class = "buttons">
+                                <div class = "btn1" onclick="changeImage3()" value="Change3" >Next</div>
+                            </div>
+                            <div class = "time">Link: <a href="#">Simulation</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <h2>Portfolio 4</h2>
+                    <div class="inner">
+                        <p><span class="bold">Description:</span> Automated energy/transport cost report writing</p> 
+                        <p><span class="bold">Equipment | Language:</span> PyCharm IDE, Google Sheets, Word | Python</p>
+                        <div class="thumb-pic">
+                            <img src="assets/4/automatedReports1.png" alt="reports" id="myImage4">
+                        </div>
+                        <div class = "bottom-text">
+                            <div class = "buttons">
+                                <div class = "btn1" onclick="changeImage4()" value="Change4" >Next</div>
+                            </div>
+                            <div class = "time">Link: <a href="#">Auto Reporting</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <h2>Portfolio 5</h2>
+                    <div class="inner">
+                        <p><span class="bold">Description:</span> Medication Tracker application</p> 
+                        <p><span class="bold">Equipment | Language:</span> IntelliJ IDE | JavaFX</p>
+                        <div class="thumb-pic">
+                            <img src="assets/5/medRemind1.png" alt="med_track" id="myImage5">
+                        </div>
+                        <div class = "bottom-text">
+                            <div class = "buttons">
+                                <div class = "btn1" onclick="changeImage5()" value="Change5" >Next</div>
+                            </div>
+                            <div class = "time">Link: <a href="#">Medication Data</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <h2>Portfolio 6</h2>
+                    <div class="inner">
+                        <p><span class="bold">Description:</span> Temperature, moisture, and light data logging</p>
+                        <p><span class="bold">Equipment | Language:</span> Arduino Uno WIFI, Arduino IDE, Excel | Arduino language/p>
+                        <div class="thumb-pic">
+                            <img src="assets/6/arduino1.png" alt="sensor" id="myImage6">
+                        </div>
+                        <div class = "bottom-text">
+                            <div class = "buttons">
+                                <div class = "btn1" onclick="changeImage6()" value="Change6" >Next</div>
+                            </div>
+                            <div class = "time">Link: <a href="#">Sensor Data</a></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <h2>Portfolio 7</h2>
+                    <div class="inner">
+                        <p><span class="bold">Description:</span> Biotechnology E-commerce webpage</p>
+                        <p><span class="bold">Equipment | Language:</span> Visual Studio | HTML, CSS, PHP, SQL</p>
+                        <div class="thumb-pic">
+                            <img src="assets/7/bioIndex1.png" alt="data" id="myImage7">
+                        </div>
+                        <div class = "bottom-text">
+                            <div class = "buttons">
+                                <div class = "btn1" onclick="changeImage7()" value="Change7" >Next</div>
+                            </div>
+                            <div class = "time">Link: <a href="http://localhost/phpFinalProject200523537/">Biotec-For-U</a></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+
+        </article>
+        <aside class="sidebar">
+            <div class="inner">
+                <p>Interested in collaborating?</p>
+                <p>Email: alivesoftware117@gmail.com</p>
+                <p>Email: joshua.burt@MyGeorgian.ca</p>
+            </div>
+            <a href="#top"><img src="assets/logoRose.jpg" alt="249"></a>
+        </aside> 
+    </main>
+    <div class = "scroll1">
+        <img src="assets/tilePattern.png" alt="tile">
+    </div>
+</body>
+</html>
